@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--recipes world-->
+    <title>Products World</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/mobile-ico.png"
+      type="image/x-icon"
+    />
+    <!--bootstrap cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!--external css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg bg-info">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning fs-3 fw-bold" href="#">Navbar</a>
+        <!--addtocartbtn start-->
+        <div class="d-lg-none d-block ms-auto">
+          <button type="button" class="btn btn-primary position-relative cart-btn">
+            icon
+            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+              <span class="" id="cart-val">0</span>
+            </span>
+          </button>
+        </div>
+        <!--addtocartbtn end-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-danger fs-4" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger fs-4" href="./index.html">Link</a>
+            </li>
+          </ul>
+          <div class="d-lg-block d-none me-2 mt-2">
+            <button type="button" class="btn btn-primary position-relative cart-btn">
+              icon
+              <span
+                class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                <span class="" id="cart-val">0</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--navbar end-->
+    <!--hero section start-->
+    <div class="welcome-box">
+      <h3 id="welcome"></h3>
+    </div>
+    <!--hero section end-->
+    <!--our top products start-->
+    <div class="container my-3">
+      <div class="row">
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <!--product card starts-->
+          <div class="card product">
+            <img
+              src="./assets/apple-iphone.webp"
+              class="card-img-top product-img"
+              alt="..."
+            />
+            <div class="card-body product-info">
+              <h5 class="card-title product-title">Apple iPhone 16 Pro Max</h5>
+              <p class="card-text product-description">
+                Camera Control gives you an easier way to quickly access camera
+                tools. Now you can take the perfect photo or video in record
+                time.
+              </p>
+              <p class="card-text product-price">1,35,990</p>
+              <a href="#" class="btn btn-primary add-to-cart">addtocart</a>
+            </div>
+          </div>
+          <!--product card ends-->
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <!--product card starts-->
+          <div class="card product">
+            <img
+              src="./assets/apple-iphone2.webp"
+              class="card-img-top product-img"
+              alt="..."
+            />
+            <div class="card-body product-info">
+              <h5 class="card-title product-title">Apple iPhone 15 Pro Max</h5>
+              <p class="card-text product-description">
+                Camera Control gives you an easier way to quickly access camera
+                tools. Now you can take the perfect photo or video in record
+                time.
+              </p>
+              <p class="card-text product-price">1,34,900</p>
+              <a href="#" class="btn btn-primary add-to-cart">addtocart</a>
+            </div>
+          </div>
+          <!--product card ends-->
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <!--product card starts-->
+          <div class="card product">
+            <img
+              src="./assets/apple-iphone3.webp"
+              class="card-img-top product-img"
+              alt="..."
+            />
+            <div class="card-body product-info">
+              <h5 class="card-title product-title">Apple iPhone 14 Pro Max</h5>
+              <p class="card-text product-description">
+                Camera Control gives you an easier way to quickly access camera
+                tools. Now you can take the perfect photo or video in record
+                time.
+              </p>
+              <p class="card-text product-price">73,299</p>
+              <a href="#" class="btn btn-primary add-to-cart">addtocart</a>
+            </div>
+          </div>
+          <!--product card ends-->
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <!--product card starts-->
+          <div class="card product">
+            <img
+              src="./assets/apple-iphone4.webp"
+              class="card-img-top product-img"
+              alt="..."
+            />
+            <div class="card-body product-info">
+              <h5 class="card-title product-title">Apple iPhone 18 Pro Max</h5>
+              <p class="card-text product-description">
+                Camera Control gives you an easier way to quickly access camera
+                tools. Now you can take the perfect photo or video in record
+                time.
+              </p>
+              <p class="card-text product-price">1,09,999</p>
+              <a href="#" class="btn btn-primary add-to-cart">addtocart</a>
+            </div>
+          </div>
+          <!--product card ends-->
+        </div>
+      </div>
+    </div>
+    <!--our top products end-->
+    <!--footer start-->
+    <!--footer end-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
